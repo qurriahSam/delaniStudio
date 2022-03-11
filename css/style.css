@@ -31,3 +31,7 @@ body {
   font-weight: 600;
   font-size: small;
 }
+
+.services {
+  background: url(../assets/backgrounds/s_image.jpg) center/cover;
+}
