@@ -1,1 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=League+Spartan:wght@100;200;300;400;500;600;700&display=swap");
+body {
+  font-family: "League Spartan", sans-serif;
+  background-color: antiquewhite;
+}
+
+.banner {
+  background: url(../assets/backgrounds/h_img.jpg) center/cover;
+  color: antiquewhite;
+  height: 100vh;
+}
+
+.banner-logo {
+  width: 4em;
+}
+
+.mouse-image {
+  width: 1.5em;
+}
+
+.banner-title {
+  font-weight: 600;
+  font-size: 2.5em;
+}
+
+.studio-name {
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.banner-subtitle {
+  font-weight: 600;
+  font-size: small;
+}
