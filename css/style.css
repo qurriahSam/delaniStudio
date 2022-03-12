@@ -2,7 +2,7 @@
 body {
   font-family: "League Spartan", sans-serif;
   background-color: antiquewhite;
-  height: 300vh;
+  height: 800vh;
 }
 
 .banner {
@@ -42,4 +42,13 @@ body {
   background: url(../assets/backgrounds/s_image.jpg);
   height: 50vh;
   padding-top: 15vh;
+}
+
+.what-we-do {
+  padding-top: 10vh;
+}
+
+.whatWeDo-content {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
