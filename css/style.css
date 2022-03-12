@@ -2,7 +2,6 @@
 body {
   font-family: "League Spartan", sans-serif;
   background-color: antiquewhite;
-  height: 800vh;
 }
 
 .banner {
@@ -51,4 +50,15 @@ body {
 .whatWeDo-content {
   padding-top: 5vh;
   padding-bottom: 5vh;
+}
+
+.portfolio {
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+}
+
+.contact-us {
+  background: url(../assets/backgrounds/c_image.jpg) center/cover;
+  padding-top: 10vh;
+  padding-bottom: 8vh;
 }
