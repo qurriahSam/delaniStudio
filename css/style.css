@@ -62,3 +62,14 @@ body {
   padding-top: 10vh;
   padding-bottom: 8vh;
 }
+
+input,
+textarea {
+  background-color: rgba(255, 255, 255, 0) !important;
+  color: #fff !important;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: rgb(214, 214, 214) !important;
+}
