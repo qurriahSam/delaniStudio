@@ -45,11 +45,17 @@ body {
 
 .what-we-do {
   padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 
 .whatWeDo-content {
   padding-top: 5vh;
   padding-bottom: 5vh;
+  cursor: pointer;
+}
+
+.whatWeDo-img img {
+  height: 5em;
 }
 
 .portfolio {
@@ -72,4 +78,14 @@ textarea {
 textarea::placeholder,
 input::placeholder {
   color: rgb(214, 214, 214) !important;
+}
+
+@media screen and (min-width: 768px) {
+  .what-we-do {
+    height: 50vh;
+  }
+  .whatWeDo-content,
+  .whatWeDo-img {
+    padding-top: 5vh;
+  }
 }
