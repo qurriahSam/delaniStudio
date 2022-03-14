@@ -50,6 +50,8 @@ $(document).ready(function () {
     e.preventDefault();
     let name = $("#name").val();
     let email = $("#email").val();
+    let message = $("#message").val();
+    let count = 0;
 
     if (!nameCheck(name) || name.length <= 2) {
       if (name.length == 0) {
@@ -57,6 +59,8 @@ $(document).ready(function () {
       } else {
         $("#nameWarn").text("Enter Valid Name");
       }
+    } else {
+      count++;
     }
 
     if (!emailCheck(email)) {
@@ -65,6 +69,18 @@ $(document).ready(function () {
       } else {
         $("#emailWarn").text("Enter valid email");
       }
+    } else {
+      count++;
+    }
+
+    if (message.length == 0) {
+      $("#messageWarn").text("Message is required");
+    } else {
+      count++;
+    }
+
+    if (count == 3) {
+      alert(`${name} we have received your message`);
     }
   });
 });
