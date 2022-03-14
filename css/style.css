@@ -71,12 +71,13 @@ body {
 .work-bg {
   position: absolute;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.493);
+  background-color: rgba(0, 0, 0, 0.76);
   bottom: 0;
   top: 0;
 }
 
 .work-text {
+  display: none;
   position: absolute;
   top: 10%;
   border: 4px solid #fff;
