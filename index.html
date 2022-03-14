@@ -202,7 +202,7 @@
     <section class="contact-us">
       <div class="container text-light">
         <h2 class="text-uppercase text-center">contact us</h2>
-        <form action="#">
+        <form id="contactForm" action="#">
           <div class="row">
             <div class="col-md-6 form-group p-3">
               <input
@@ -223,6 +223,7 @@
                 name="email"
                 id="email"
                 placeholder="Email..."
+                required
               />
               <p id="emailWarn" class="text-danger pt-1"></p>
             </div>
@@ -235,7 +236,9 @@
               placeholder="Your message here..."
               cols="30"
               rows="10"
+              required
             ></textarea>
+            <p id="messageWarn" class="text-danger pt-1"></p>
           </div>
           <div class="container d-grid gap-2 col-6 mx-auto mt-4">
             <button id="btn" class="btn btn-outline-info fw-bold fs-5 border-2" type="submit">
