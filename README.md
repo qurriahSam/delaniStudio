@@ -19,19 +19,19 @@ This is a web application for a studio.
 
 ## Install Requirements
 
-- Computer.
+- Computer
 
-- Internet Access.
+- Internet Access
 
-- git.
+- Git
 
-- Terminal.
+- Terminal
 
 ## Installation
 
 On your computer open terminal and run:
 
-    git clone
+    git clone https://github.com/qurriahSam/delaniStudio.git
 
 [Go Back to the top](#Deleni_Studio)
 
@@ -49,7 +49,7 @@ On your computer open terminal and run:
 
 ## Links
 
-- Live Site URL: [Delani-Studio]()
+- Live Site URL: [Delani-Studio](https://qurriahsam.github.io/delaniStudio/)
 
 [Go Back to the top](#Deleni_Studio)
 
