@@ -82,6 +82,9 @@ $(document).ready(function () {
     if (count == 3) {
       alert(`${name} we have received your message`);
       $("#contactForm")[0].reset();
+      $("#emailWarn").text("");
+      $("#messageWarn").text("");
+      $("#nameWarn").text("");
     }
   });
 });
