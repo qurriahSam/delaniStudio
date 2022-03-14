@@ -36,12 +36,35 @@ $(document).ready(function () {
     return result;
   };
 
+  const emailCheck = (email) => {
+    let testReg = /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/;
+    let result = true;
+
+    if (!testReg.test(email)) {
+      result = false;
+    }
+    return result;
+  };
+
   $("#btn").click(function (e) {
     e.preventDefault();
     let name = $("#name").val();
+    let email = $("#email").val();
 
     if (!nameCheck(name) || name.length <= 2) {
-      alert("enter valid name");
+      if (name.length == 0) {
+        $("#nameWarn").text("Name is required");
+      } else {
+        $("#nameWarn").text("Enter Valid Name");
+      }
+    }
+
+    if (!emailCheck(email)) {
+      if (email.length == 0) {
+        $("#emailWarn").text("Email is required");
+      } else {
+        $("#emailWarn").text("Enter valid email");
+      }
     }
   });
 });
