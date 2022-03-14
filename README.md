@@ -6,8 +6,7 @@
 - [Screenshot](#screenshot)
 - [Installation](#install-requirements)
 - [Technology Used](#technology)
-- [Reference](#reference)
-- [Licence](#license)
+- [License](#license)
 - [Authors Info](#authors-Info)
 
 ## Description
@@ -46,7 +45,7 @@ On your computer open terminal and run:
 
 - Bootstrap - Has been used for styling the navbar and other elements on the landingpage.
 
-- JQuery - UHas been used for javascript Functionality
+- JQuery - Has been used for javascript Functionality
 
 ## Links
 
