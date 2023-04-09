@@ -11,7 +11,7 @@
 
 ## Description
 
-This is a web application for a studio.
+This landing page represents a prime example of a studio website, built using the latest HTML, CSS, and JavaScript technologies. The page has been meticulously designed to provide an immersive and visually appealing experience for visitors, with sophisticated design elements and advanced programming techniques seamlessly integrated to achieve a polished and professional look.
 
 ## Screenshot
 
